@@ -6,7 +6,7 @@ metadata:
     name: voating-app-service
     app: demo-voating-app
 spec:
-  type: LoadBanlancer
+  type: LoadBalancer
   ports:
     - targetPort: 80
       port: 80
