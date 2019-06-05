@@ -11,4 +11,4 @@ spec:
     port: 6379
  selector: 
    name: redis-pod
-   app: voating-app
+   app: voting-app
