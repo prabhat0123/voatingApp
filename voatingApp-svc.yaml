@@ -5,7 +5,7 @@ metadata:
  labels: 
   app: voting-app
 spec: 
- type: LoadBalanced
+ type: LoadBalancer
  selector: 
   app: voating-app
   name: voating-app-pod
