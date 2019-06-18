@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Pod
+metadata: 
+ name: db
+ labels: 
+  name: postgers-pod
+  app: voting-app
+spec: 
+ selector: 
+  name: postgers-pod
+  app: voting-app
+ ports: 
+  - port: 5432
+    targetPort: 5432
