@@ -6,7 +6,7 @@ metadata:
   name: result-app
   app: voting-app
 spec: 
- conatiners: 
+ containers: 
   - name: result-app
     image: dockersamples/examplevotingapp_worker
     ports: 
