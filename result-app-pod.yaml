@@ -10,4 +10,4 @@ spec:
   - name: result-app
     image: dockersamples/examplevotingapp_worker
     ports: 
-     - containerPort: 8080
+     - containerPort: 80
