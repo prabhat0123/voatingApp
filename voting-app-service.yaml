@@ -3,7 +3,7 @@ kind: Service
 metadata: 
  name: voting-app-service
 spec: 
- type: LoadBalacer
+ type: LoadBalancer
  selector: 
   name: voting-app-pod
   app: voting-app
